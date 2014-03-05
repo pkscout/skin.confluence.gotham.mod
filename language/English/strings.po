@@ -232,7 +232,18 @@ msgctxt "#31112"
 msgid "Options"
 msgstr ""
 
-#empty strings from id 31113 to 31115
+msgctxt "#31113"
+msgid "Show Random Movies instead"
+msgstr ""
+
+msgctxt "#31114"
+msgid "Show Random TV Shows instead"
+msgstr ""
+
+msgctxt "#31115"
+msgid "Show Random Albums instead"
+msgstr ""
+
 
 msgctxt "#31116"
 msgid "Show Recently added Albums"
@@ -281,8 +292,6 @@ msgstr ""
 msgctxt "#31132"
 msgid "Lyrics Add-on"
 msgstr ""
-
-#empty string with id 31133
 
 msgctxt "#31134"
 msgid "Home Page Videos Sub-menu"
@@ -446,7 +455,11 @@ msgctxt "#31331"
 msgid "Album Details"
 msgstr ""
 
-#empty strings from id 31332 to 31350
+msgctxt "#31332"
+msgid "Random"
+msgstr ""
+
+#empty strings from id 31333 to 31350
 #Video and Music OSD Labels
 
 msgctxt "#31351"
