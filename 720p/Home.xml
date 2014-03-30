@@ -17,15 +17,14 @@
 		</control>
 		<control type="image">
 			<description>LOGO</description>
-			<left>0</left>
-			<top>5</top>
+			<left>1115</left>
+			<top>660</top>
 			<width>170</width>
 			<height>100</height>
 			<aspectratio aligny="top" align="left">keep</aspectratio>
 			<texture>xbmc-logo.png</texture>
 			<include>VisibleFadeEffect</include>
 			<include>Window_OpenClose_Animation</include>
-			<visible>!Skin.HasSetting(homepageWeatherinfo)</visible>
 		</control>
 		<!-- Music Info -->
 		<control type="group">
