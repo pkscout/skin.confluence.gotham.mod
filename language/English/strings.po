@@ -261,7 +261,11 @@ msgctxt "#31119"
 msgid "Hide Background Fanart"
 msgstr ""
 
-#empty strings from id 31120 to 31123
+msgctxt "#31120"
+msgid "Radio Channels"
+msgstr ""
+
+#empty strings from id 31121 to 31123
 
 msgctxt "#31124"
 msgid "Show Background \"Now Playing\" Video"
@@ -665,7 +669,25 @@ msgctxt "#31910"
 msgid "Map & Alerts"
 msgstr ""
 
-#empty strings from id 31911 to 31949
+#empty strings from id 31911 to 31919
+
+msgctxt "#31920"
+msgid "NextPVR Advanced Integration"
+msgstr ""
+
+msgctxt "#31921"
+msgid "Use X-NEWA for EPG"
+msgstr ""
+
+msgctxt "#31922"
+msgid "Use X-NEWA for Recordings"
+msgstr ""
+
+msgctxt "#31923"
+msgid "Use X-NEWA for Timers"
+msgstr ""
+
+#empty strings from id 31924 to 31949
 
 msgctxt "#31950"
 msgid "WEATHER"

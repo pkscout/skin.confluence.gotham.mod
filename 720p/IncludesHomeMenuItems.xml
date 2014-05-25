@@ -257,26 +257,13 @@
 			<label>19023</label>
 			<onclick>ActivateWindowAndFocus(MyPVR, 32,0, 11,0)</onclick>
 		</control>
-		<control type="button" id="90143">
-			<include>ButtonHomeSubCommonValues</include>
-			<label>19024</label>
-			<onclick>ActivateWindowAndFocus(MyPVR, 33,0, 12,0)</onclick>
-		</control>
-		<control type="button" id="90144">
-			<include>ButtonHomeSubCommonValues</include>
-			<label>19069</label>
-			<onclick>ActivateWindowAndFocus(MyPVR, 31,0, 10,0)</onclick>
-		</control>
-		<control type="button" id="90145">
-			<include>ButtonHomeSubCommonValues</include>
-			<label>19163</label>
-			<onclick>ActivateWindowAndFocus(MyPVR, 34,0, 13,0)</onclick>
-		</control>
-		<control type="button" id="90146">
-			<include>ButtonHomeSubCommonValues</include>
-			<label>19040</label>
-			<onclick>ActivateWindowAndFocus(MyPVR, 35,0, 14,0)</onclick>
-		</control>
+		<include condition="!Skin.HasSetting(HomeMenuNoRadioChannels)">StandardRadioChannels</include>
+		<include condition="!System.HasAddon(script.xbmc.x-newa) | !Skin.HasSetting(UseNEWAEPG)">StandardEPG</include>
+		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWAEPG)">XNEWAEPG</include>
+		<include condition="!System.HasAddon(script.xbmc.x-newa) | !Skin.HasSetting(UseNEWARecordings)">StandardRecordings</include>
+		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWARecordings)">XNEWARecordings</include>
+		<include condition="!System.HasAddon(script.xbmc.x-newa) | !Skin.HasSetting(UseNEWATimer)">StandardTimer</include>
+		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWATimer)">XNEWATimer</include>
 		<control type="image" id="90147">
 			<width>35</width>
 			<height>35</height>

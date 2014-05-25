@@ -12,6 +12,7 @@
 	<include file="IncludesHomeRecentlyAdded.xml"/>
 	<include file="IncludesHomeRecentlyAddedContent.xml" />
 	<include file="IncludesHomeMenuItems.xml"/>
+	<include file="IncludesHomeMenuItemsLiveTVSubMenu.xml" />
 	<include file="IncludesBackgroundBuilding.xml"/>
 	<include file="weather\10DayForecast.xml"/>
 	<include file="weather\36HourForecast.xml"/>

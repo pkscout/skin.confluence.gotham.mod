@@ -594,6 +594,73 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
+					<control type="radiobutton" id="229">
+						<description>Hide Radio Channels</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>$LOCALIZE[31111] - $LOCALIZE[31120]</label>
+						<onclick>Skin.ToggleSetting(HomeMenuNoRadioChannels)</onclick>
+						<selected>Skin.HasSetting(HomeMenuNoRadioChannels)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>
+					<control type="label" id="230">
+					    <description>NextPVR XNEWA Integration Options</description>
+						<width>750</width>
+						<height>45</height>
+						<font>font13_title</font>
+						<label>31920</label>
+						<textcolor>blue</textcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<visible>System.HasAddon(script.xbmc.x-newa)</visible>
+					</control>
+					<control type="radiobutton" id="231">
+						<description>Use NEWA EPG</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>31921</label>
+						<onclick>Skin.ToggleSetting(UseNEWAEPG)</onclick>
+						<selected>Skin.HasSetting(UseNEWAEPG)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<visible>System.HasAddon(script.xbmc.x-newa)</visible>
+					</control>
+					<control type="radiobutton" id="232">
+						<description>Use NEWA Recordings</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>31922</label>
+						<onclick>Skin.ToggleSetting(UseNEWARecordings)</onclick>
+						<selected>Skin.HasSetting(UseNEWARecordings)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<visible>System.HasAddon(script.xbmc.x-newa)</visible>
+					</control>
+					<control type="radiobutton" id="233">
+						<description>Use NEWA Timers</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>31923</label>
+						<onclick>Skin.ToggleSetting(UseNEWATimer)</onclick>
+						<selected>Skin.HasSetting(UseNEWATimer)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<visible>System.HasAddon(script.xbmc.x-newa)</visible>
+					</control>
 				</control>
 				<control type="scrollbar" id="60">
 					<left>1060</left>
