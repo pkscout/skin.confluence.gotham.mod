@@ -260,11 +260,13 @@
 		<include condition="!Skin.HasSetting(HomeMenuNoRadioChannels)">StandardRadioChannels</include>
 		<include condition="!System.HasAddon(script.xbmc.x-newa) | !Skin.HasSetting(UseNEWAEPG)">StandardEPG</include>
 		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWAEPG)">XNEWAEPG</include>
-		<include condition="!System.HasAddon(script.xbmc.x-newa) | !Skin.HasSetting(UseNEWARecordings)">StandardRecordings</include>
+		<include condition="!Skin.HasSetting(HomeMenuNoRecordings) + [!System.HasAddon(script.xbmc.x-newa) | !Skin.HasSetting(UseNEWARecordings)]">StandardRecordings</include>
 		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWARecordings)">XNEWARecordings</include>
+		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWASchedules)">XNEWASchedules</include>
+		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWAWebClient)">XNEWAWebClient</include>
 		<include condition="!System.HasAddon(script.xbmc.x-newa) | !Skin.HasSetting(UseNEWATimer)">StandardTimer</include>
 		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWATimer)">XNEWATimer</include>
-		<control type="image" id="90147">
+		<control type="image" id="90149">
 			<width>35</width>
 			<height>35</height>
 			<texture border="0,0,0,3">HomeSubEnd.png</texture>

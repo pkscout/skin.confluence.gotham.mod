@@ -261,11 +261,7 @@ msgctxt "#31119"
 msgid "Hide Background Fanart"
 msgstr ""
 
-msgctxt "#31120"
-msgid "Radio Channels"
-msgstr ""
-
-#empty strings from id 31121 to 31123
+#empty strings from id 31120 to 31123
 
 msgctxt "#31124"
 msgid "Show Background \"Now Playing\" Video"
@@ -687,7 +683,29 @@ msgctxt "#31923"
 msgid "Use X-NEWA for Timers"
 msgstr ""
 
-#empty strings from id 31924 to 31949
+msgctxt "#31924"
+msgid "Show X-NEWA Recurring Recording List"
+msgstr ""
+
+msgctxt "#31925"
+msgid "Show X-NEWA Web Client"
+msgstr ""
+
+#empty strings from id 31926 to 31929
+
+msgctxt "#31930"
+msgid "Upcoming"
+msgstr ""
+
+msgctxt "#31931"
+msgid "Season Passes"
+msgstr ""
+
+msgctxt "#31932"
+msgid "NPVR Web Client"
+msgstr ""
+
+#empty strings from id 31933 to 31949
 
 msgctxt "#31950"
 msgid "WEATHER"
