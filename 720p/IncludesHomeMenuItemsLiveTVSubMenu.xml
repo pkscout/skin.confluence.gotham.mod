@@ -31,14 +31,14 @@
 		<control type="button" id="90144">
 			<include>ButtonHomeSubCommonValues</include>
 			<label>19069</label>
-			<onclick>RunAddon(script.xbmc.x-newa)</onclick>
+			<onclick>RunAddon(script.xbmc.x-newa, epg)</onclick>
 		</control>
 	</include>
     <include name="XNEWARecordings">
 		<control type="button" id="90145">
 			<include>ButtonHomeSubCommonValues</include>
 			<label>19163</label>
-			<onclick>RunAddon(script.xbmc.x-newa)</onclick>
+			<onclick>RunAddon(script.xbmc.x-newa, recordings)</onclick>
 		</control>
 	</include>
     <include name="XNEWATimer">
