@@ -261,7 +261,7 @@
 		<include condition="!System.HasAddon(script.xbmc.x-newa) | !Skin.HasSetting(UseNEWAEPG)">StandardEPG</include>
 		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWAEPG)">XNEWAEPG</include>
 		<include condition="!Skin.HasSetting(HomeMenuNoRecordings) + [!System.HasAddon(script.xbmc.x-newa) | !Skin.HasSetting(UseNEWARecordings)]">StandardRecordings</include>
-		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWARecordings)">XNEWARecordings</include>
+		<include condition="!Skin.HasSetting(HomeMenuNoRecordings) + System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWARecordings)">XNEWARecordings</include>
 		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWASchedules)">XNEWASchedules</include>
 		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWAWebClient)">XNEWAWebClient</include>
 		<include condition="!System.HasAddon(script.xbmc.x-newa) | !Skin.HasSetting(UseNEWATimer)">StandardTimer</include>
