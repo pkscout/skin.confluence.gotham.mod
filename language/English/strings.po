@@ -668,44 +668,34 @@ msgstr ""
 #empty strings from id 31911 to 31919
 
 msgctxt "#31920"
-msgid "NextPVR Advanced Integration"
+msgid "NextPVR Integration"
 msgstr ""
 
 msgctxt "#31921"
-msgid "Use X-NEWA for EPG"
+msgid "Use X-NEWA for"
 msgstr ""
 
 msgctxt "#31922"
-msgid "Use X-NEWA for Recordings"
+msgid "Show X-NEWA"
 msgstr ""
 
 msgctxt "#31923"
-msgid "Use X-NEWA for Timers"
-msgstr ""
-
-msgctxt "#31924"
-msgid "Show X-NEWA Recurring Recording List"
-msgstr ""
-
-msgctxt "#31925"
-msgid "Show X-NEWA Web Client"
-msgstr ""
-
-#empty strings from id 31926 to 31929
-
-msgctxt "#31930"
-msgid "Upcoming"
-msgstr ""
-
-msgctxt "#31931"
-msgid "Season Passes"
-msgstr ""
-
-msgctxt "#31932"
 msgid "NPVR Web Client"
 msgstr ""
 
-#empty strings from id 31933 to 31949
+msgctxt "#31924"
+msgid "Upcoming"
+msgstr ""
+
+msgctxt "#31925"
+msgid "Recurring"
+msgstr ""
+
+msgctxt "#31926"
+msgid "NPVR Web Client"
+msgstr ""
+
+#empty strings from id 31927 to 31949
 
 msgctxt "#31950"
 msgid "WEATHER"
