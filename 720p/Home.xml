@@ -1041,7 +1041,7 @@
 				<left>100</left>
 				<top>0</top>
 				<height>30</height>
-				<width>1145</width>
+				<width>1000</width>
 				<font>font12</font>
 				<urlset>1</urlset>
 				<textcolor>blue</textcolor>
@@ -1050,7 +1050,7 @@
 			</control>
 			<control type="image">
 				<description>RSS background</description>
-				<left>1250</left>
+				<left>1105</left>
 				<top>2</top>
 				<width>24</width>
 				<height>24</height>
