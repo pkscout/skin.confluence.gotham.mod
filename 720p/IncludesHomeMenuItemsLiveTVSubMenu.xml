@@ -62,4 +62,11 @@
 			<onclick>RunAddon(script.xbmc.x-newa, webclient)</onclick>
 		</control>
 	</include>
+    <include name="XNEWADashboard">
+		<control type="button" id="90149">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>31927</label>
+			<onclick>RunAddon(script.xbmc.x-newa)</onclick>
+		</control>
+	</include>
 </includes>

@@ -695,7 +695,11 @@ msgctxt "#31926"
 msgid "NPVR Web Client"
 msgstr ""
 
-#empty strings from id 31927 to 31949
+msgctxt "#31927"
+msgid "Dashboard"
+msgstr ""
+
+#empty strings from id 31928 to 31949
 
 msgctxt "#31950"
 msgid "WEATHER"

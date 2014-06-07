@@ -1203,6 +1203,20 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<visible>System.HasAddon(script.xbmc.x-newa)</visible>
 					</control>
+					<control type="radiobutton" id="916">
+						<description>Show NEWA Dashboard</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>$LOCALIZE[31922] $LOCALIZE[31927]</label>
+						<onclick>Skin.ToggleSetting(UseNEWADashboard)</onclick>
+						<selected>Skin.HasSetting(UseNEWADashboard)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<visible>System.HasAddon(script.xbmc.x-newa)</visible>
+					</control>
 				</control>
 			</control>
 		</control>

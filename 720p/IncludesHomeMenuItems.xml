@@ -262,11 +262,12 @@
 		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWAEPG)">XNEWAEPG</include>
 		<include condition="!Skin.HasSetting(HomeMenuNoRecordings) + [!System.HasAddon(script.xbmc.x-newa) | !Skin.HasSetting(UseNEWARecordings)]">StandardRecordings</include>
 		<include condition="!Skin.HasSetting(HomeMenuNoRecordings) + System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWARecordings)">XNEWARecordings</include>
+		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWADashboard)">XNEWADashboard</include>
 		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWAWebClient)">XNEWAWebClient</include>
 		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWASchedules)">XNEWASchedules</include>
 		<include condition="!System.HasAddon(script.xbmc.x-newa) | !Skin.HasSetting(UseNEWATimer)">StandardTimer</include>
 		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWATimer)">XNEWATimer</include>
-		<control type="image" id="90149">
+		<control type="image" id="90150">
 			<width>35</width>
 			<height>35</height>
 			<texture border="0,0,0,3">HomeSubEnd.png</texture>
