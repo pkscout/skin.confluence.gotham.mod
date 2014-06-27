@@ -185,7 +185,7 @@
 						<onclick>noop</onclick>
 					</item>
 					<item id="5">
-						<label>31920</label>
+						<label>$ADDON[script.module.cmpl 30004]</label>
 						<label2>31112</label2>
 						<onclick>noop</onclick>
 						<visible>System.HasAddon(script.xbmc.x-newa)</visible>
@@ -449,7 +449,7 @@
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>   $LOCALIZE[31113]</label>
+						<label>   $ADDON[script.module.cmpl 30000]</label>
 						<onclick>Skin.ToggleSetting(HomepageShowRandomMovies)</onclick>
 						<selected>Skin.HasSetting(HomepageShowRandomMovies)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
@@ -463,7 +463,7 @@
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>   $LOCALIZE[31114]</label>
+						<label>   $ADDON[script.module.cmpl 30001]</label>
 						<onclick>Skin.ToggleSetting(HomepageShowRandomTV)</onclick>
 						<selected>Skin.HasSetting(HomepageShowRandomTV)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
@@ -490,7 +490,7 @@
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>   $LOCALIZE[31115]</label>
+						<label>   $ADDON[script.module.cmpl 30002]</label>
 						<onclick>Skin.ToggleSetting(HomepageShowRandomAlbums)</onclick>
 						<selected>Skin.HasSetting(HomepageShowRandomAlbums)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
@@ -1114,7 +1114,7 @@
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
-						<label>31920</label>
+						<label>$ADDON[script.module.cmpl 30004]</label>
 						<textcolor>blue</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
@@ -1140,7 +1140,7 @@
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>$LOCALIZE[31921] $LOCALIZE[19163]</label>
+						<label>$ADDON[script.module.cmpl 30005] $LOCALIZE[19163]</label>
 						<onclick>Skin.ToggleSetting(UseNEWARecordings)</onclick>
 						<selected>Skin.HasSetting(UseNEWARecordings)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
@@ -1154,7 +1154,7 @@
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>$LOCALIZE[31921] $LOCALIZE[19069]</label>
+						<label>$ADDON[script.module.cmpl 30005] $LOCALIZE[19069]</label>
 						<onclick>Skin.ToggleSetting(UseNEWAEPG)</onclick>
 						<selected>Skin.HasSetting(UseNEWAEPG)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
@@ -1168,7 +1168,7 @@
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>$LOCALIZE[31921] $LOCALIZE[19040]</label>
+						<label>$ADDON[script.module.cmpl 30005] $LOCALIZE[19040]</label>
 						<onclick>Skin.ToggleSetting(UseNEWATimer)</onclick>
 						<selected>Skin.HasSetting(UseNEWATimer)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
@@ -1182,7 +1182,7 @@
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>$LOCALIZE[31922] $LOCALIZE[31925] $LOCALIZE[19163]</label>
+						<label>$ADDON[script.module.cmpl 30006] $ADDON[script.module.cmpl 30009] $LOCALIZE[19163]</label>
 						<onclick>Skin.ToggleSetting(UseNEWASchedules)</onclick>
 						<selected>Skin.HasSetting(UseNEWASchedules)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
@@ -1196,7 +1196,7 @@
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>$LOCALIZE[31922] $LOCALIZE[31926]</label>
+						<label>$ADDON[script.module.cmpl 30006] $ADDON[script.module.cmpl 30007]</label>
 						<onclick>Skin.ToggleSetting(UseNEWAWebClient)</onclick>
 						<selected>Skin.HasSetting(UseNEWAWebClient)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
@@ -1210,7 +1210,7 @@
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>$LOCALIZE[31922] $LOCALIZE[31927]</label>
+						<label>$ADDON[script.module.cmpl 30006] $ADDON[script.module.cmpl 30010]</label>
 						<onclick>Skin.ToggleSetting(UseNEWADashboard)</onclick>
 						<selected>Skin.HasSetting(UseNEWADashboard)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
