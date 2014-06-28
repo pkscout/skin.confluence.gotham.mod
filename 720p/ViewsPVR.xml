@@ -104,9 +104,9 @@
 						<include>VisibleFadeEffect</include>
 					</control>
 					<control type="label">
-						<left>5</left>
+						<left>1</left>
 						<top>-4</top>
-						<width>40</width>
+						<width>44</width>
 						<height>35</height>
 						<font>font12</font>
 						<align>left</align>
@@ -199,9 +199,9 @@
 						<include>VisibleFadeEffect</include>
 					</control>
 					<control type="label">
-						<left>5</left>
+						<left>1</left>
 						<top>-4</top>
-						<width>40</width>
+						<width>44</width>
 						<height>35</height>
 						<font>font12</font>
 						<align>left</align>
@@ -893,9 +893,9 @@
 						<include>VisibleFadeEffect</include>
 					</control>
 					<control type="label">
-						<left>5</left>
+						<left>1</left>
 						<top>5</top>
-						<width>40</width>
+						<width>44</width>
 						<height>35</height>
 						<font>font12</font>
 						<align>left</align>
@@ -906,9 +906,9 @@
 					</control>
 					<control type="image">
 						<left>45</left>
-						<top>4</top>
-						<width>45</width>
-						<height>44</height>
+						<top>2</top>
+						<width>43</width>
+						<height>43</height>
 						<texture>$INFO[ListItem.Icon]</texture>
 					</control>
 					<control type="label" id="1">
@@ -943,9 +943,9 @@
 						<include>VisibleFadeEffect</include>
 					</control>
 					<control type="label">
-						<left>5</left>
+						<left>1</left>
 						<top>5</top>
-						<width>40</width>
+						<width>44</width>
 						<height>35</height>
 						<font>font12</font>
 						<align>left</align>
@@ -956,9 +956,9 @@
 					</control>
 					<control type="image">
 						<left>45</left>
-						<top>4</top>
-						<width>45</width>
-						<height>44</height>
+						<top>2</top>
+						<width>43</width>
+						<height>43</height>
 						<texture>$INFO[ListItem.Icon]</texture>
 					</control>
 					<control type="label" id="1">
