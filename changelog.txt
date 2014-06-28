@@ -1,5 +1,6 @@
 v.1.0.2
 - fixed PVR blade so it honors choices regarding XNEWA
+- PVR screens now support a 4 digit channel number without scrolling
 
 v.1.0.1
 - option to show/hide TV episode/season numbers on home screen (hidden by default)
