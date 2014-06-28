@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
-	<onload condition="System.HasAddon(script.artistslideshow)">RunScript(script.artistslideshow)</onload>
+	<onload condition="System.HasAddon(script.artistslideshow) + !Skin.HasSetting(HideArtistSlideshow)">RunScript(script.artistslideshow)</onload>
 	<defaultcontrol>-</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
 	<controls>
@@ -33,6 +33,7 @@
 		    <timeperimage>10000</timeperimage>
 		    <fadetime>2000</fadetime>
 		    <randomize>true</randomize>
+		    <visible>System.HasAddon(script.artistslideshow) + !Skin.HasSetting(HideArtistSlideshow)</visible>
 		</control>
 		<!-- media infos -->
 		<control type="group">
