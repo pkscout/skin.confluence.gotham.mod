@@ -429,6 +429,19 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<visible>!IsEmpty(Weather.Plugin)</visible>
 					</control>
+					<control type="radiobutton" id="211">
+						<description>show music disc number</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>$ADDON[script.module.cmpl 30013]</label>
+						<onclick>Skin.ToggleSetting(HomepageShowMusicDiscNumber)</onclick>
+						<selected>Skin.HasSetting(HomepageShowMusicDiscNumber)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>
 					<control type="radiobutton" id="205">
 						<description>Show Recently added Video info</description>
 						<width>750</width>
@@ -1153,7 +1166,7 @@
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
-						<label>$ADDON[script.module.cmpl 30004]</label>
+						<label>31106</label>
 						<textcolor>blue</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
