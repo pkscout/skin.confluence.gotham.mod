@@ -615,7 +615,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
 					<control type="radiobutton" id="229">
-						<description>Hide Radio Channels</description>
+						<description>Hide Radio Channels (LiveTV)</description>
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -624,6 +624,19 @@
 						<label>$LOCALIZE[31111] - $LOCALIZE[19024] ($LOCALIZE[31502])</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoRadioChannels)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoRadioChannels)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>
+					<control type="radiobutton" id="230">
+						<description>Hide Recordings (LiveTV)</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>$LOCALIZE[31111] - $LOCALIZE[19163] ($LOCALIZE[31502])</label>
+						<onclick>Skin.ToggleSetting(HomeMenuNoRecordings)</onclick>
+						<selected>Skin.HasSetting(HomeMenuNoRecordings)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
@@ -1146,19 +1159,6 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="radiobutton" id="510">
-						<description>Hide Recordings</description>
-						<width>750</width>
-						<height>40</height>
-						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<label>$LOCALIZE[31111] - $LOCALIZE[19163] ($LOCALIZE[31502])</label>
-						<onclick>Skin.ToggleSetting(HomeMenuNoRecordings)</onclick>
-						<selected>Skin.HasSetting(HomeMenuNoRecordings)</selected>
-						<texturefocus>MenuItemFO.png</texturefocus>
-						<texturenofocus>MenuItemNF.png</texturenofocus>
-					</control>
 					<control type="radiobutton" id="511">
 						<description>Use NEWA Recordings</description>
 						<width>750</width>
@@ -1215,7 +1215,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<visible>System.HasAddon(script.xbmc.x-newa)</visible>
 					</control>
-					<control type="radiobutton" id="915">
+					<control type="radiobutton" id="515">
 						<description>Show NEWA Web Client</description>
 						<width>750</width>
 						<height>40</height>
@@ -1229,7 +1229,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<visible>System.HasAddon(script.xbmc.x-newa)</visible>
 					</control>
-					<control type="radiobutton" id="916">
+					<control type="radiobutton" id="5œå16">
 						<description>Show NEWA Dashboard</description>
 						<width>750</width>
 						<height>40</height>
