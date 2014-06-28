@@ -1,3 +1,6 @@
+v.1.0.3
+- fix so Revamp is the default theme (old confluence theme named Classic)
+
 v.1.0.2
 - fixed PVR blade so it honors choices regarding XNEWA
 - PVR screens now support a 4 digit channel number without scrolling
@@ -9,7 +12,7 @@ v.1.0.1
 v.1.0.0
 - support for Artist Slideshow (enabled by default)
   http://wiki.xbmc.org/index.php?title=Add-on:Artist_Slideshow
-- support for Skin Widgets on home screen (random and recent movies/tv shows)
+- support for Skin Widgets random and recent movies/tv shows on home screen (enabled by default)
   http://wiki.xbmc.org/index.php?title=Add-on:Skin_Widgets
 - support for Revamp theme by uNiversal (enabled by default)
   http://forum.xbmc.org/showthread.php?tid=182210
