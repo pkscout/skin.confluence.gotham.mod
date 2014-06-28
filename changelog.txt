@@ -1,3 +1,6 @@
+v.1.0.2
+- fixed PVR blade so it honors choices regarding XNEWA
+
 v.1.0.1
 - option to show/hide TV episode/season numbers on home screen (hidden by default)
 - option to show/hide music disc numbers on home screen/music visualization (hidden by default)
@@ -13,6 +16,7 @@ v.1.0.0
 - Clock and weather persistent across most screens (when clock is enabled)
 - Clicking LiveTV on home screen automatically opens PVR channel list
 - XMBC label moved to lower right corner and is persistent (RSS feeds shifted accordingly)
+- option to show/hide Recordings and Radio links in LiveTV
 - if you are running NextPVR and XNEWA, options are available to use portions of XNEWA
   instead of the default PVR interfaces under LiveTV
   http://forums.gbpvr.com/forumdisplay.php?55-X-NEWA
