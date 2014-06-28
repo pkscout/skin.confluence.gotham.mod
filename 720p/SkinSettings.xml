@@ -442,6 +442,20 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
+					<control type="radiobutton" id="210">
+						<description>Show season/episode numbers</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>   $ADDON[script.module.cmpl 30012]</label>
+						<onclick>Skin.ToggleSetting(HomepageShowSeasonEpisodes)</onclick>
+						<selected>Skin.HasSetting(HomepageShowSeasonEpisodes)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<visible>!Skin.HasSetting(HomepageHideRecentlyAddedVideo)</visible>
+					</control>
 					<control type="radiobutton" id="207">
 						<description>Show Random Movie info</description>
 						<width>750</width>

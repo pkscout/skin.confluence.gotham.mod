@@ -289,79 +289,159 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.1.Path)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(LatestEpisode.1.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.1.EpisodeTitle))</visible>
+							<visible>!IsEmpty(Window.Property(LatestEpisode.1.EpisodeTitle)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
-							<label>$INFO[Window.Property(LatestEpisode.2.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.2.ShowTitle)] - $INFO[Window.Property(LatestEpisode.2.EpisodeNo)]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.2.Path)])</onclick>
+							<label>$INFO[Window.Property(LatestEpisode.1.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(LatestEpisode.1.ShowTitle)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.1.Path)])</onclick>
 							<icon>-</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.2.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.2.EpisodeTitle))</visible>
+							<thumb>$INFO[Window.Property(LatestEpisode.1.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(LatestEpisode.1.EpisodeTitle)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
-							<label>$INFO[Window.Property(LatestEpisode.3.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.3.ShowTitle)] - $INFO[Window.Property(LatestEpisode.3.EpisodeNo)]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.3.Path)])</onclick>
+							<label>$INFO[Window.Property(Latestepisode.2.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.2.ShowTitle)] - $INFO[Window.Property(Latestepisode.2.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.2.Path)])</onclick>
 							<icon>-</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.3.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.3.EpisodeTitle))</visible>
+							<thumb>$INFO[Window.Property(Latestepisode.2.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.2.EpisodeTitle)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
-							<label>$INFO[Window.Property(LatestEpisode.4.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.4.ShowTitle)] - $INFO[Window.Property(LatestEpisode.4.EpisodeNo)]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.4.Path)])</onclick>
+							<label>$INFO[Window.Property(Latestepisode.2.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.2.ShowTitle)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.2.Path)])</onclick>
 							<icon>-</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.4.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.4.EpisodeTitle))</visible>
+							<thumb>$INFO[Window.Property(Latestepisode.2.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.2.EpisodeTitle)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
-							<label>$INFO[Window.Property(LatestEpisode.5.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.5.ShowTitle)] - $INFO[Window.Property(LatestEpisode.5.EpisodeNo)]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.5.Path)])</onclick>
+							<label>$INFO[Window.Property(Latestepisode.3.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.3.ShowTitle)] - $INFO[Window.Property(Latestepisode.3.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.3.Path)])</onclick>
 							<icon>-</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.5.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.5.EpisodeTitle))</visible>
+							<thumb>$INFO[Window.Property(Latestepisode.3.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.3.EpisodeTitle)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
-							<label>$INFO[Window.Property(LatestEpisode.6.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.6.ShowTitle)] - $INFO[Window.Property(LatestEpisode.6.EpisodeNo)]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.6.Path)])</onclick>
+							<label>$INFO[Window.Property(Latestepisode.3.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.3.ShowTitle)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.3.Path)])</onclick>
 							<icon>-</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.6.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.6.EpisodeTitle))</visible>
+							<thumb>$INFO[Window.Property(Latestepisode.3.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.3.EpisodeTitle)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
-							<label>$INFO[Window.Property(LatestEpisode.7.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.7.ShowTitle)] - $INFO[Window.Property(LatestEpisode.7.EpisodeNo)]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.7.Path)])</onclick>
+							<label>$INFO[Window.Property(Latestepisode.4.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.4.ShowTitle)] - $INFO[Window.Property(Latestepisode.4.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.4.Path)])</onclick>
 							<icon>-</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.7.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.7.EpisodeTitle))</visible>
+							<thumb>$INFO[Window.Property(Latestepisode.4.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.4.EpisodeTitle)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
-							<label>$INFO[Window.Property(LatestEpisode.8.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.8.ShowTitle)] - $INFO[Window.Property(LatestEpisode.8.EpisodeNo)]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.8.Path)])</onclick>
+							<label>$INFO[Window.Property(Latestepisode.4.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.4.ShowTitle)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.4.Path)])</onclick>
 							<icon>-</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.8.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.8.EpisodeTitle))</visible>
+							<thumb>$INFO[Window.Property(Latestepisode.4.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.4.EpisodeTitle)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
-							<label>$INFO[Window.Property(LatestEpisode.9.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.9.ShowTitle)] - $INFO[Window.Property(LatestEpisode.9.EpisodeNo)]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.9.Path)])</onclick>
+							<label>$INFO[Window.Property(Latestepisode.5.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.5.ShowTitle)] - $INFO[Window.Property(Latestepisode.5.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.5.Path)])</onclick>
 							<icon>-</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.9.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.9.EpisodeTitle))</visible>
+							<thumb>$INFO[Window.Property(Latestepisode.5.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.5.EpisodeTitle)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
-							<label>$INFO[Window.Property(LatestEpisode.10.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.10.ShowTitle)] - $INFO[Window.Property(LatestEpisode.10.EpisodeNo)]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.10.Path)])</onclick>
+							<label>$INFO[Window.Property(Latestepisode.5.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.5.ShowTitle)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.5.Path)])</onclick>
 							<icon>-</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.10.Thumb)]</thumb>
-							<visible>!IsEmpty(Window.Property(LatestEpisode.10.EpisodeTitle))</visible>
+							<thumb>$INFO[Window.Property(Latestepisode.5.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.5.EpisodeTitle)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(Latestepisode.6.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.6.ShowTitle)] - $INFO[Window.Property(Latestepisode.6.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.6.Path)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(Latestepisode.6.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.6.EpisodeTitle)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(Latestepisode.6.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.6.ShowTitle)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.6.Path)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(Latestepisode.6.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.6.EpisodeTitle)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(Latestepisode.7.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.7.ShowTitle)] - $INFO[Window.Property(Latestepisode.7.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.7.Path)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(Latestepisode.7.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.7.EpisodeTitle)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(Latestepisode.7.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.7.ShowTitle)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.7.Path)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(Latestepisode.7.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.7.EpisodeTitle)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(Latestepisode.8.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.8.ShowTitle)] - $INFO[Window.Property(Latestepisode.8.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.8.Path)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(Latestepisode.8.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.8.EpisodeTitle)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(Latestepisode.8.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.8.ShowTitle)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.8.Path)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(Latestepisode.8.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.8.EpisodeTitle)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(Latestepisode.9.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.9.ShowTitle)] - $INFO[Window.Property(Latestepisode.9.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.9.Path)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(Latestepisode.9.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.9.EpisodeTitle)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(Latestepisode.9.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.9.ShowTitle)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.9.Path)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(Latestepisode.9.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.9.EpisodeTitle)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(Latestepisode.10.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.10.ShowTitle)] - $INFO[Window.Property(Latestepisode.10.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.10.Path)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(Latestepisode.10.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.10.EpisodeTitle)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(Latestepisode.10.EpisodeTitle)]</label>
+							<label2>$INFO[Window.Property(Latestepisode.10.ShowTitle)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(Latestepisode.10.Path)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(Latestepisode.10.Thumb)]</thumb>
+							<visible>!IsEmpty(Window.Property(Latestepisode.10.EpisodeTitle)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 					</content>
     </include>
@@ -369,11 +449,27 @@
 					<content>
 						<item>
 							<label>$INFO[Window.Property(RecentEpisode.1.Title)]</label>
+							<label2>$INFO[Window.Property(RecentEpisode.1.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.1.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.1.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RecentEpisode.1.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.1.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RecentEpisode.1.Title)]</label>
 							<label2>$INFO[Window.Property(RecentEpisode.1.TVshowTitle)]</label2>
 							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.1.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RecentEpisode.1.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RecentEpisode.1.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.1.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RecentEpisode.2.Title)]</label>
+							<label2>$INFO[Window.Property(RecentEpisode.2.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.2.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.2.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RecentEpisode.2.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.2.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RecentEpisode.2.Title)]</label>
@@ -381,7 +477,15 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.2.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RecentEpisode.2.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RecentEpisode.2.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.2.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RecentEpisode.3.Title)]</label>
+							<label2>$INFO[Window.Property(RecentEpisode.3.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.3.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.3.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RecentEpisode.3.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.3.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RecentEpisode.3.Title)]</label>
@@ -389,7 +493,15 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.3.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RecentEpisode.3.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RecentEpisode.3.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.3.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RecentEpisode.4.Title)]</label>
+							<label2>$INFO[Window.Property(RecentEpisode.4.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.4.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.4.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RecentEpisode.4.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.4.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RecentEpisode.4.Title)]</label>
@@ -397,7 +509,15 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.4.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RecentEpisode.4.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RecentEpisode.4.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.4.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RecentEpisode.5.Title)]</label>
+							<label2>$INFO[Window.Property(RecentEpisode.5.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.5.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.5.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RecentEpisode.5.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.5.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RecentEpisode.5.Title)]</label>
@@ -405,7 +525,15 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.5.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RecentEpisode.5.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RecentEpisode.5.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.5.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RecentEpisode.6.Title)]</label>
+							<label2>$INFO[Window.Property(RecentEpisode.6.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.6.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.6.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RecentEpisode.6.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.6.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RecentEpisode.6.Title)]</label>
@@ -413,7 +541,15 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.6.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RecentEpisode.6.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RecentEpisode.6.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.6.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RecentEpisode.7.Title)]</label>
+							<label2>$INFO[Window.Property(RecentEpisode.7.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.7.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.7.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RecentEpisode.7.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.7.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RecentEpisode.7.Title)]</label>
@@ -421,7 +557,15 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.7.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RecentEpisode.7.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RecentEpisode.7.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.7.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RecentEpisode.8.Title)]</label>
+							<label2>$INFO[Window.Property(RecentEpisode.8.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.8.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.8.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RecentEpisode.8.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.8.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RecentEpisode.8.Title)]</label>
@@ -429,7 +573,15 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.8.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RecentEpisode.8.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RecentEpisode.8.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.8.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RecentEpisode.9.Title)]</label>
+							<label2>$INFO[Window.Property(RecentEpisode.9.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.9.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.9.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RecentEpisode.9.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.9.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RecentEpisode.9.Title)]</label>
@@ -437,7 +589,15 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.9.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RecentEpisode.9.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RecentEpisode.9.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.9.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RecentEpisode.10.Title)]</label>
+							<label2>$INFO[Window.Property(RecentEpisode.10.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.10.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.10.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RecentEpisode.10.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.10.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RecentEpisode.10.Title)]</label>
@@ -445,7 +605,7 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RecentEpisode.10.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RecentEpisode.10.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RecentEpisode.10.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RecentEpisode.10.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 					</content>
     </include>
@@ -453,11 +613,27 @@
 					<content>
 						<item>
 							<label>$INFO[Window.Property(RandomEpisode.1.Title)]</label>
+							<label2>$INFO[Window.Property(RandomEpisode.1.TVshowTitle)] - $INFO[Window.Property(RandomEpisode.1.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.1.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RandomEpisode.1.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.1.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RandomEpisode.1.Title)]</label>
 							<label2>$INFO[Window.Property(RandomEpisode.1.TVshowTitle)]</label2>
 							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.1.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RandomEpisode.1.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RandomEpisode.1.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.1.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RandomEpisode.2.Title)]</label>
+							<label2>$INFO[Window.Property(RandomEpisode.2.TVshowTitle)] - $INFO[Window.Property(RandomEpisode.2.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.2.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RandomEpisode.2.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.2.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RandomEpisode.2.Title)]</label>
@@ -465,7 +641,15 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.2.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RandomEpisode.2.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RandomEpisode.2.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.2.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RandomEpisode.3.Title)]</label>
+							<label2>$INFO[Window.Property(RandomEpisode.3.TVshowTitle)] - $INFO[Window.Property(RandomEpisode.3.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.3.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RandomEpisode.3.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.3.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RandomEpisode.3.Title)]</label>
@@ -473,7 +657,15 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.3.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RandomEpisode.3.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RandomEpisode.3.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.3.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RandomEpisode.4.Title)]</label>
+							<label2>$INFO[Window.Property(RandomEpisode.4.TVshowTitle)] - $INFO[Window.Property(RandomEpisode.4.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.4.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RandomEpisode.4.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.4.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RandomEpisode.4.Title)]</label>
@@ -481,7 +673,15 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.4.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RandomEpisode.4.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RandomEpisode.4.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.4.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RandomEpisode.5.Title)]</label>
+							<label2>$INFO[Window.Property(RandomEpisode.5.TVshowTitle)] - $INFO[Window.Property(RandomEpisode.5.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.5.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RandomEpisode.5.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.5.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RandomEpisode.5.Title)]</label>
@@ -489,7 +689,15 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.5.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RandomEpisode.5.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RandomEpisode.5.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.5.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RandomEpisode.6.Title)]</label>
+							<label2>$INFO[Window.Property(RandomEpisode.6.TVshowTitle)] - $INFO[Window.Property(RandomEpisode.6.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.6.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RandomEpisode.6.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.6.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RandomEpisode.6.Title)]</label>
@@ -497,7 +705,15 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.6.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RandomEpisode.6.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RandomEpisode.6.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.6.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RandomEpisode.7.Title)]</label>
+							<label2>$INFO[Window.Property(RandomEpisode.7.TVshowTitle)] - $INFO[Window.Property(RandomEpisode.7.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.7.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RandomEpisode.7.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.7.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RandomEpisode.7.Title)]</label>
@@ -505,7 +721,15 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.7.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RandomEpisode.7.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RandomEpisode.7.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.7.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RandomEpisode.8.Title)]</label>
+							<label2>$INFO[Window.Property(RandomEpisode.8.TVshowTitle)] - $INFO[Window.Property(RandomEpisode.8.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.8.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RandomEpisode.8.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.8.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RandomEpisode.8.Title)]</label>
@@ -513,7 +737,15 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.8.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RandomEpisode.8.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RandomEpisode.8.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.8.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RandomEpisode.9.Title)]</label>
+							<label2>$INFO[Window.Property(RandomEpisode.9.TVshowTitle)] - $INFO[Window.Property(RandomEpisode.9.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.9.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RandomEpisode.9.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.9.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RandomEpisode.9.Title)]</label>
@@ -521,7 +753,15 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.9.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RandomEpisode.9.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RandomEpisode.9.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.9.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
+						</item>
+						<item>
+							<label>$INFO[Window.Property(RandomEpisode.10.Title)]</label>
+							<label2>$INFO[Window.Property(RandomEpisode.10.TVshowTitle)] - $INFO[Window.Property(RandomEpisode.10.EpisodeNo)]</label2>
+							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.10.File)])</onclick>
+							<icon>-</icon>
+							<thumb>$INFO[Window.Property(RandomEpisode.10.Art(thumb))]</thumb>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.10.Title)) + Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(RandomEpisode.10.Title)]</label>
@@ -529,7 +769,7 @@
 							<onclick>PlayMedia($ESCINFO[Window.Property(RandomEpisode.10.File)])</onclick>
 							<icon>-</icon>
 							<thumb>$INFO[Window.Property(RandomEpisode.10.Art(thumb))]</thumb>
-							<visible>!IsEmpty(Window.Property(RandomEpisode.10.Title))</visible>
+							<visible>!IsEmpty(Window.Property(RandomEpisode.10.Title)) + !Skin.HasSetting(HomepageShowSeasonEpisodes)</visible>
 						</item>
 					</content>
     </include>
