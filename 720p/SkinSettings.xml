@@ -1198,7 +1198,6 @@
 						<selected>Skin.HasSetting(UseNEWAEPG)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<visible>System.HasAddon(script.xbmc.x-newa)</visible>
 					</control>
 					<control type="radiobutton" id="513">
 						<description>Use NEWA Timers</description>
@@ -1212,7 +1211,6 @@
 						<selected>Skin.HasSetting(UseNEWATimer)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<visible>System.HasAddon(script.xbmc.x-newa)</visible>
 					</control>
 					<control type="radiobutton" id="514">
 						<description>Show NEWA Recurring Schedules</description>
@@ -1226,7 +1224,6 @@
 						<selected>Skin.HasSetting(UseNEWASchedules)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<visible>System.HasAddon(script.xbmc.x-newa)</visible>
 					</control>
 					<control type="radiobutton" id="515">
 						<description>Show NEWA Web Client</description>
@@ -1240,9 +1237,8 @@
 						<selected>Skin.HasSetting(UseNEWAWebClient)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<visible>System.HasAddon(script.xbmc.x-newa)</visible>
 					</control>
-					<control type="radiobutton" id="5œå16">
+					<control type="radiobutton" id="516">
 						<description>Show NEWA Dashboard</description>
 						<width>750</width>
 						<height>40</height>
@@ -1254,7 +1250,6 @@
 						<selected>Skin.HasSetting(UseNEWADashboard)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<visible>System.HasAddon(script.xbmc.x-newa)</visible>
 					</control>
 				</control>
 			</control>
